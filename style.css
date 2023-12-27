@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: hsl(0, 0%, 30%);
+    color: white;
+    transition: all 0.4s ease;
+}
+h1{
+    font-size: 38px;
+}
+.playBtns{
+    margin-bottom: 30px;
+}
+button{
+    font-size: 125px;
+    padding: 30px;
+    border: none;
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer;
+}
+button:nth-child(1){
+    background: hsl(350, 100%, 68%);
+}
+button:nth-child(1):hover{
+    background: hsl(350, 100%, 72%);
+}
+button:nth-child(2){
+    background: hsl(60, 100%, 68%);
+}
+button:nth-child(2):hover{
+    background: hsl(50, 100%, 74%);
+}
+button:nth-child(3){
+    background: hsl(180, 100%, 68%);
+}
+button:nth-child(3):hover{
+    background: hsl(150, 100%, 76%);
+}
+#resultDisplay{
+    font-size: 65px;
+    margin: 15px;
+}
+#scoreDisplay{
+    font-size: 35px;
+}
+#playerDisplay,
+#computerDisplay{
+    font-size: 30px;
+}
+
+.greenTxt,
+#playerScore{
+    color: hsl(120, 100%, 45%);
+}
+.redTxt,
+#computerScore{
+    color: hsl(0, 100%, 60%);
+}
